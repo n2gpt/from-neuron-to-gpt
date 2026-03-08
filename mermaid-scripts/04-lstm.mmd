@@ -1,0 +1,21 @@
+%%{init: {'flowchart': {'htmlLabels': true}}}%%
+flowchart LR
+    classDef in fill:#E3F2FD,stroke:#2196F3,stroke-width:2px;
+    classDef model fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px;
+    classDef data fill:#E1BEE7,stroke:#9C27B0,stroke-width:2px;
+    classDef test fill:#F8BBD0,stroke:#E91E63,stroke-width:2px;
+    classDef out fill:#DCEDC8,stroke:#8BC34A,stroke-width:2px;
+    classDef skip stroke:#B0BEC5,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef default stroke-width:2px;
+
+    Ht((h)):::test --> C{+}:::model --> Hidden[[w]]:::model --> Tanh[tanh]:::model
+    Xt((x)):::in --> Embedding[embedding]:::model --> C
+    C --> FG[forget gate] --> FM{*}
+    C --> IG[input gate] --> IM{*}
+    C --> OG[output gate] --> OM{*}
+    Ct((c)) -.-> FM
+    Tanh --> IM
+    FM -.-> CP{+} --> Tanh1[tanh]
+    IM --> CP -...-> Ct1((c))
+    Tanh1 --> OM --> Ht1((h)):::test
+    OM --> Output[[w]]:::model --> Softmax[softmax]:::model --> Pt1((p)):::out

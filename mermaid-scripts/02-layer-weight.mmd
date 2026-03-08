@@ -1,0 +1,86 @@
+block-beta
+classDef transparent fill:white,stroke:white
+classDef in fill:#E3F2FD,stroke:#2196F3,stroke-width:2px;
+classDef model fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px;
+classDef data fill:#E1BEE7,stroke:#9C27B0,stroke-width:2px;
+classDef test fill:#F8BBD0,stroke:#E91E63,stroke-width:2px;
+classDef out fill:#DCEDC8,stroke:#8BC34A,stroke-width:2px;
+classDef skip stroke:#B0BEC5,stroke-width:2px,stroke-dasharray: 5 5;
+columns 5
+block:in:3
+    columns 1
+    block:x
+        space
+        space
+        space
+        X1(("x1"))
+        space
+        X2(("x2"))
+        class X1,X2 in
+    end
+    arrowx<["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"]>(down)
+    block:w1
+        space
+        W11[["w<sub>1.1</sub>"]]
+        W12[["w<sub>1.2</sub>"]]
+        B1[["b<sub>1</sub>"]]
+        class W11,W12,B1 model
+    end
+    block:w2
+        space
+        W21[["w<sub>2.1</sub>"]]
+        W22[["w<sub>2.2</sub>"]]
+        B2[["b<sub>2</sub>"]]
+        class W21,W22,B2 model
+    end
+    block:w3
+        space
+        W31[["w<sub>3.1</sub>"]]
+        W32[["w<sub>3.2</sub>"]]
+        B3[["b<sub>3</sub>"]]
+        class W31,W32,B3 model
+    end
+    block:w4
+        space
+        W41[["w<sub>4.1</sub>"]]
+        W42[["w<sub>4.2</sub>"]]
+        B4[["b<sub>4</sub>"]]
+        class W41,W42,B4 model
+    end
+    class x transparent
+    class arrowx test
+end
+block:f
+    columns 1
+    space
+    space
+    arrow1<["&nbsp;&nbsp;&nbsp;"]>(right)
+    arrow2<["&nbsp;&nbsp;&nbsp;"]>(right)
+    arrow3<["&nbsp;&nbsp;&nbsp;"]>(right)
+    arrow4<["&nbsp;&nbsp;&nbsp;"]>(right)
+    class arrow1,arrow2,arrow3,arrow4 test
+end
+block:out
+    columns 1
+    space
+    space
+    block:y1
+        Y1(("p<sub>1</sub>"))
+        class Y1 out
+    end
+    block:y2
+        Y2(("p<sub>2</sub>"))
+        class Y2 out
+    end
+    block:y3
+        Y3(("p<sub>3</sub>"))
+        class Y3 out
+    end
+    block:y4
+        Y4(("p<sub>4</sub>"))
+        class Y4 out
+    end
+    class y1,y2,y3,y4 transparent
+end
+
+class in,f,out transparent

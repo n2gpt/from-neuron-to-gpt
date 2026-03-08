@@ -1,0 +1,33 @@
+flowchart TB
+    classDef in fill:#E3F2FD,stroke:#2196F3,stroke-width:2px;
+    classDef model fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px;
+    classDef data fill:#E1BEE7,stroke:#9C27B0,stroke-width:2px;
+    classDef test fill:#F8BBD0,stroke:#E91E63,stroke-width:2px;
+    classDef out fill:#DCEDC8,stroke:#8BC34A,stroke-width:2px;
+    classDef skip stroke:#B0BEC5,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef whiteSub fill:#FFFFFF,stroke:#FBC02D,stroke-width:2px;
+
+    subgraph SL[" "]
+        subgraph L1[" "]
+            direction TB
+            H1["H"]:::model
+            H2["H"]:::model
+            H3["H"]:::model
+            H4["H"]:::model
+        end
+        subgraph L2[" "]
+            direction TB
+            O["O"]:::model
+        end
+    end
+    X1((x<sub>1</sub>)):::in --> H1 --> O --> P((p)):::out
+    X1 --> H2 --> O
+    X1 --> H3 --> O
+    X1 --> H4 --> O
+
+    X2((x<sub>2</sub>)):::in --> H1
+    X2 --> H2
+    X2 --> H3
+    X2 --> H4
+
+    class SL whiteSub

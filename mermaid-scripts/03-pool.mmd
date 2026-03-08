@@ -1,0 +1,57 @@
+block-beta
+classDef transparent fill:white,stroke:white
+classDef in fill:#E3F2FD,stroke:#2196F3,stroke-width:2px;
+classDef model fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px;
+classDef data fill:#E1BEE7,stroke:#9C27B0,stroke-width:2px;
+classDef test fill:#F8BBD0,stroke:#E91E63,stroke-width:2px;
+classDef out fill:#DCEDC8,stroke:#8BC34A,stroke-width:2px;
+classDef skip stroke:#B0BEC5,stroke-width:2px,stroke-dasharray: 5 5;
+columns 7
+block:x_1:4
+    columns 4
+    x1_1["1"]
+    x1_2["5"]
+    x1_3["2"]
+    x1_4["8"]
+    x1_5["3"]
+    x1_6["2"]
+    x1_7["9"]
+    x1_8["5"]
+    x1_9["1"]
+    x1_10["0"]
+    x1_11["5"]
+    x1_12["8"]
+    x1_13["2"]
+    x1_14["4"]
+    x1_15["8"]
+    x1_16["1"]
+end
+block:c_1:1
+    columns 1
+    space
+    space
+    arrow1<["&nbsp;"]>(right)
+    space
+    space
+end
+block:x_2:2
+    columns 2
+    space
+    space
+    x2_1["5"]
+    x2_2["9"]
+    x2_3["4"]
+    x2_4["8"]
+    space
+    space
+end
+
+class x1_1,x1_2,x1_5,x1_6 in
+class x1_3,x1_4,x1_7,x1_8 data
+class x1_9,x1_10,x1_13,x1_14 test
+class x1_11,x1_12,x1_15,x1_16 out
+class x2_1 in
+class x2_2 data
+class x2_3 test
+class x2_4 out
+class x_1,c_1,x_2 transparent

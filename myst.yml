@@ -22,6 +22,7 @@ project:
             - file: 01-neural-networks/01-multilayer-perceptron/04-learning-rate.ipynb
             - file: 01-neural-networks/01-multilayer-perceptron/05-iteration.ipynb
             - file: 01-neural-networks/01-multilayer-perceptron/06-batch.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/07-epoch.ipynb
         - title: 神经网络框架
           children:
             - file: 01-neural-networks/02-neural-network-framework/*.ipynb

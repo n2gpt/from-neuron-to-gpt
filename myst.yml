@@ -27,7 +27,8 @@ project:
             - file: 01-neural-networks/01-multilayer-perceptron/09-activation-function.ipynb
         - title: 神经网络框架
           children:
-            - file: 01-neural-networks/02-neural-network-framework/*.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/01-tensor.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/02-linear.ipynb
         - title: 卷积神经网络
           children:
             - file: 01-neural-networks/03-convolutional-neural-network/*.ipynb

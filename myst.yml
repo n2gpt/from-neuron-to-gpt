@@ -18,6 +18,7 @@ project:
           children:
             - file: 01-neural-networks/01-multilayer-perceptron/01-linear-regression.ipynb
             - file: 01-neural-networks/01-multilayer-perceptron/02-mean-squared-error.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/03-gradient-descent.ipynb
         - title: 神经网络框架
           children:
             - file: 01-neural-networks/02-neural-network-framework/*.ipynb

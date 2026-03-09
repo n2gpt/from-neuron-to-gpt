@@ -1,3 +1,5 @@
-# From Neuron to GPT
+# 从人工神经元到聊天机器人
 
-A step-by-step implementation journey from a single artificial neuron to modern large language models.
+## 📖 电子书
+
+[从人工神经元到聊天机器人 - 电子书](https://n2gpt.github.io/from-neuron-to-gpt/)

@@ -29,6 +29,9 @@ project:
           children:
             - file: 01-neural-networks/02-neural-network-framework/01-tensor.ipynb
             - file: 01-neural-networks/02-neural-network-framework/02-linear.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/03-mse-loss.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/04-auto-grad.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/05-sgd-optimizer.ipynb
         - title: 卷积神经网络
           children:
             - file: 01-neural-networks/03-convolutional-neural-network/*.ipynb

@@ -32,6 +32,10 @@ project:
             - file: book-zh/01-neural-networks/02-neural-network-framework/03-mse-loss.ipynb
             - file: book-zh/01-neural-networks/02-neural-network-framework/04-auto-grad.ipynb
             - file: book-zh/01-neural-networks/02-neural-network-framework/05-sgd-optimizer.ipynb
+            - file: book-zh/01-neural-networks/02-neural-network-framework/06-dataset.ipynb
+            - file: book-zh/01-neural-networks/02-neural-network-framework/07-model.ipynb
+            - file: book-zh/01-neural-networks/02-neural-network-framework/08-multi-layer.ipynb
+            - file: book-zh/01-neural-networks/02-neural-network-framework/09-relu.ipynb
         - title: 卷积神经网络
           children:
             - file: 01-neural-networks/03-convolutional-neural-network/*.ipynb

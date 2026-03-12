@@ -4,38 +4,34 @@ project:
   id: 2ff361ef-200a-4e6a-be05-725c77a3866d
   title: 从人工神经元到聊天机器人
   authors:
-    - name: Steven Li
-      # orcid: https://orcid.org/0000-0002-8713-2343
-  # license:
-  # description:
-  # keywords: []
+    - name: 李晓光（Steven Li）
   github: https://github.com/n2gpt/from-neuron-to-gpt
   toc:
-    - file: book-zh/intro.md
+    - file: README.md
     - title: 深度神经网络
       children:
         - title: 多层感知机
           children:
-            - file: book-zh/01-neural-networks/01-multilayer-perceptron/01-linear-regression.ipynb
-            - file: book-zh/01-neural-networks/01-multilayer-perceptron/02-mean-squared-error.ipynb
-            - file: book-zh/01-neural-networks/01-multilayer-perceptron/03-gradient-descent.ipynb
-            - file: book-zh/01-neural-networks/01-multilayer-perceptron/04-learning-rate.ipynb
-            - file: book-zh/01-neural-networks/01-multilayer-perceptron/05-iteration.ipynb
-            - file: book-zh/01-neural-networks/01-multilayer-perceptron/06-batch.ipynb
-            - file: book-zh/01-neural-networks/01-multilayer-perceptron/07-epoch.ipynb
-            - file: book-zh/01-neural-networks/01-multilayer-perceptron/08-hidden-layer.ipynb
-            - file: book-zh/01-neural-networks/01-multilayer-perceptron/09-activation-function.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/01-linear-regression.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/02-mean-squared-error.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/03-gradient-descent.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/04-learning-rate.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/05-iteration.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/06-batch.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/07-epoch.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/08-hidden-layer.ipynb
+            - file: 01-neural-networks/01-multilayer-perceptron/09-activation-function.ipynb
         - title: 神经网络框架
           children:
-            - file: book-zh/01-neural-networks/02-neural-network-framework/01-tensor.ipynb
-            - file: book-zh/01-neural-networks/02-neural-network-framework/02-linear.ipynb
-            - file: book-zh/01-neural-networks/02-neural-network-framework/03-mse-loss.ipynb
-            - file: book-zh/01-neural-networks/02-neural-network-framework/04-auto-grad.ipynb
-            - file: book-zh/01-neural-networks/02-neural-network-framework/05-sgd-optimizer.ipynb
-            - file: book-zh/01-neural-networks/02-neural-network-framework/06-dataset.ipynb
-            - file: book-zh/01-neural-networks/02-neural-network-framework/07-model.ipynb
-            - file: book-zh/01-neural-networks/02-neural-network-framework/08-multi-layer.ipynb
-            - file: book-zh/01-neural-networks/02-neural-network-framework/09-relu.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/01-tensor.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/02-linear.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/03-mse-loss.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/04-auto-grad.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/05-sgd-optimizer.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/06-dataset.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/07-model.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/08-multi-layer.ipynb
+            - file: 01-neural-networks/02-neural-network-framework/09-relu.ipynb
         - title: 卷积神经网络
           children:
             - file: 01-neural-networks/03-convolutional-neural-network/*.ipynb

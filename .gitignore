@@ -208,3 +208,9 @@ __marimo__/
 
 # MyST build outputs
 _build
+
+# Mermaid
+mermaid-scripts/
+
+# Documents
+docs/

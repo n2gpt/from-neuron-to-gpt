@@ -55,5 +55,5 @@ project:
 site:
   template: book-theme
   options:
-    favicon: favicon.ico
-    logo: logo.png
+    favicon: images/favicon.ico
+    logo: images/logo.png

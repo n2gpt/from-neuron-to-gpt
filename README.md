@@ -6,7 +6,7 @@
 
 不同于依赖 PyTorch / TensorFlow 的教程，本书 **全部使用 NumPy 从零实现**，帮助读者真正理解现代深度学习模型的内部原理。
 
-![intro.png](intro.png)
+![intro.png](images/intro.png)
 
 # ✨ 本书特点
 

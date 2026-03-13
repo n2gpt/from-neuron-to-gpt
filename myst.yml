@@ -35,6 +35,7 @@ project:
         - title: 卷积神经网络
           children:
             - file: 01-neural-networks/03-convolutional-neural-network/01-mnist.ipynb
+            - file: 01-neural-networks/03-convolutional-neural-network/02-flatten.ipynb
         - title: 循环神经网络
           children:
             - file: 01-neural-networks/04-recurrent-neural-network/*.ipynb

@@ -76,4 +76,4 @@
 
 [从人工神经元到聊天机器人 - 电子书](https://n2gpt.github.io/from-neuron-to-gpt/)
 
-[代码仓库](https://github.com/n2gpt/from-neuron-to-gpt)
+[代码仓库](https://github.com/n2gpt/from-neuron-to-gpt)[![GitHub stars](https://img.shields.io/github/stars/n2gpt/from-neuron-to-gpt.svg)](https://github.com/n2gpt/from-neuron-to-gpt)

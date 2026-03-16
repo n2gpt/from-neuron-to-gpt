@@ -38,6 +38,7 @@ project:
             - file: 01-neural-networks/03-convolutional-neural-network/02-flatten.ipynb
             - file: 01-neural-networks/03-convolutional-neural-network/03-dropout.ipynb
             - file: 01-neural-networks/03-convolutional-neural-network/04-tanh-sigmoid-softmax.ipynb
+            - file: 01-neural-networks/03-convolutional-neural-network/05-ce-loss.ipynb
         - title: 循环神经网络
           children:
             - file: 01-neural-networks/04-recurrent-neural-network/*.ipynb

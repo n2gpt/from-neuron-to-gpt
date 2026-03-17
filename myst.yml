@@ -40,6 +40,7 @@ project:
             - file: 01-neural-networks/03-convolutional-neural-network/04-tanh-sigmoid-softmax.ipynb
             - file: 01-neural-networks/03-convolutional-neural-network/05-ce-loss.ipynb
             - file: 01-neural-networks/03-convolutional-neural-network/06-convolution.ipynb
+            - file: 01-neural-networks/03-convolutional-neural-network/07-pool.ipynb
         - title: 循环神经网络
           children:
             - file: 01-neural-networks/04-recurrent-neural-network/*.ipynb

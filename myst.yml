@@ -58,6 +58,9 @@ project:
         - title: 微调
           children:
             - file: 02-large-language-models/04-fine-tuning/*.ipynb
+        - title: 推理
+          children:
+            - file: 02-large-language-models/04-inference/*.ipynb
 site:
   template: book-theme
   options:

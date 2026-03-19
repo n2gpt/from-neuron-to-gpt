@@ -43,7 +43,7 @@ project:
             - file: 01-neural-networks/03-convolutional-neural-network/07-pool.ipynb
         - title: 循环神经网络
           children:
-            - file: 01-neural-networks/04-recurrent-neural-network/*.ipynb
+            - file: 01-neural-networks/04-recurrent-neural-network/01-one-hot.ipynb
     - title: 大语言模型
       children:
         - title: 分词器

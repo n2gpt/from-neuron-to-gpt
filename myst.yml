@@ -45,6 +45,7 @@ project:
           children:
             - file: 01-neural-networks/04-recurrent-neural-network/01-one-hot.ipynb
             - file: 01-neural-networks/04-recurrent-neural-network/02-bag-of-words.ipynb
+            - file: 01-neural-networks/04-recurrent-neural-network/03-embedding.ipynb
     - title: 大语言模型
       children:
         - title: 分词器
